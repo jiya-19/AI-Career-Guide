@@ -1,0 +1,112 @@
+role,skills
+Nurse,patient care,medication administration,communication,empathy,critical thinking
+Doctor,diagnosis,treatment planning,medical knowledge,communication,leadership
+Pharmacist,pharmaceutical knowledge,medication dispensing,customer service,attention to detail,inventory management
+Dentist,dental care,oral surgery,patient communication,hand-eye coordination,problem solving
+Therapist,counseling,active listening,empathy,problem solving,communication
+Veterinarian,animal care,surgery,diagnosis,empathy,communication
+Teacher,lesson planning,classroom management,communication,subject knowledge,patience
+Professor,research,teaching,academic writing,subject expertise,mentoring
+Librarian,cataloging,information retrieval,organization,customer service,technology skills
+Translator,language proficiency,translation,editing,attention to detail,cultural knowledge
+Interpreter,language proficiency,interpretation,active listening,communication,cultural knowledge
+Architect,design,autocad,project management,creativity,problem solving
+Civil Engineer,structural analysis,construction management,autocad,problem solving,communication
+Mechanical Engineer,mechanical design,cad,problem solving,analytical skills,project management
+Electrical Engineer,circuit design,troubleshooting,problem solving,analytical skills,communication
+Chemical Engineer,chemical processes,problem solving,analytical skills,lab skills,project management
+Industrial Engineer,process optimization,lean manufacturing,problem solving,analytical skills,communication
+Aerospace Engineer,aerodynamics,design,problem solving,analytical skills,project management
+Marine Engineer,ship design,mechanical systems,problem solving,analytical skills,communication
+Agricultural Engineer,irrigation systems,soil science,problem solving,analytical skills,project management
+Urban Planner,urban design,zoning laws,problem solving,analytical skills,communication
+Economist,economic analysis,data analysis,problem solving,communication,forecasting
+Statistician,statistical analysis,data interpretation,problem solving,analytical skills,software proficiency
+Sociologist,social research,data analysis,communication,critical thinking,writing
+Psychologist,counseling,active listening,empathy,problem solving,communication
+Anthropologist,fieldwork,research,writing,critical thinking,communication
+Historian,research,writing,critical thinking,analysis,communication
+Philosopher,critical thinking,writing,analysis,communication,teaching
+Writer,creative writing,editing,storytelling,grammar,communication
+Editor,editing,proofreading,attention to detail,grammar,communication
+Journalist,writing,investigation,communication,storytelling,editing
+Film Director,storytelling,leadership,creativity,communication,project management
+Actor,acting,memorization,creativity,communication,teamwork
+Musician,music theory,instrument proficiency,creativity,performance,teamwork
+Dancer,choreography,performance,creativity,discipline,teamwork
+Choreographer,choreography,creativity,leadership,communication,performance
+Chef,cooking,menu planning,creativity,time management,teamwork
+Baker,baking,attention to detail,creativity,time management,organization
+Bartender,mixology,customer service,communication,attention to detail,time management
+Waiter,customer service,communication,organization,time management,teamwork
+Hotel Manager,hotel management,customer service,leadership,communication,problem solving
+Travel Agent,travel planning,customer service,communication,organization,attention to detail
+Pilot,flight operation,communication,problem solving,teamwork,attention to detail
+Flight Attendant,customer service,communication,problem solving,teamwork,emergency response
+Logistics Manager,logistics,inventory management,problem solving,communication,organization
+Supply Chain Manager,supply chain management,logistics,problem solving,communication,analytics
+Warehouse Manager,inventory management,organization,leadership,problem solving,communication
+Quality Control Manager,quality assurance,attention to detail,problem solving,communication,analytics
+Safety Manager,safety regulations,risk assessment,problem solving,communication,leadership
+Security Guard,security,observation,problem solving,communication,emergency response
+Police Officer,law enforcement,investigation,problem solving,communication,physical fitness
+Firefighter,firefighting,emergency response,problem solving,communication,physical fitness
+Paramedic,emergency medical care,problem solving,communication,empathy,critical thinking
+Military Officer,leadership,strategic planning,problem solving,communication,physical fitness
+Politician,public speaking,leadership,negotiation,communication,problem solving
+Diplomat,diplomacy,negotiation,communication,problem solving,cultural knowledge
+Judge,legal knowledge,decision making,critical thinking,communication,leadership
+Lawyer,legal research,negotiation,communication,problem solving,critical thinking
+Detective,investigation,problem solving,communication,critical thinking,attention to detail
+Forensic Scientist,forensic analysis,lab skills,problem solving,attention to detail,communication
+Social Worker,counseling,empathy,problem solving,communication,organization
+Counselor,counseling,active listening,empathy,problem solving,communication
+Coach,leadership,motivation,communication,problem solving,team management
+Personal Trainer,fitness training,communication,motivation,problem solving,organization
+Fitness Instructor,fitness training,communication,motivation,problem solving,organization
+Yoga Instructor,yoga,communication,motivation,problem solving,organization
+Massage Therapist,massage techniques,communication,empathy,problem solving,organization
+Hairdresser,hair styling,creativity,customer service,communication,attention to detail
+Makeup Artist,makeup application,creativity,customer service,communication,attention to detail
+Fashion Designer,fashion design,creativity,sketching,sewing,trend analysis
+Tailor,sewing,attention to detail,customer service,creativity,pattern making
+Jeweler,jewelry design,attention to detail,creativity,customer service,repair skills
+Carpenter,woodworking,attention to detail,problem solving,creativity,blueprint reading
+Electrician,electrical systems,troubleshooting,problem solving,attention to detail,communication
+Plumber,plumbing,troubleshooting,problem solving,attention to detail,communication
+Mechanic,mechanical systems,troubleshooting,problem solving,attention to detail,communication
+Welder,welding,attention to detail,problem solving,blueprint reading,physical fitness
+Painter,painting,creativity,attention to detail,problem solving,time management
+Sculptor,sculpting,creativity,attention to detail,problem solving,time management
+Potter,ceramics,creativity,attention to detail,problem solving,time management
+Gardener,gardening,plant care,creativity,attention to detail,problem solving
+Farmer,farming,plant care,problem solving,organization,physical fitness
+Fisherman,fishing,problem solving,physical fitness,attention to detail,teamwork
+Miner,mining,problem solving,physical fitness,attention to detail,teamwork
+Construction Worker,construction,problem solving,physical fitness,attention to detail,teamwork
+Driver,driving,problem solving,attention to detail,time management,communication
+Taxi Driver,driving,customer service,communication,problem solving,time management
+Bus Driver,driving,customer service,communication,problem solving,time management
+Delivery Driver,driving,organization,time management,problem solving,communication
+Cleaner,cleaning,attention to detail,time management,organization,problem solving
+Janitor,cleaning,attention to detail,time management,organization,problem solving
+Receptionist,customer service,communication,organization,time management,problem solving
+Secretary,organization,communication,time management,problem solving,attention to detail
+Office Manager,office management,leadership,communication,organization,problem solving
+Data Entry Clerk,data entry,attention to detail,organization,time management,problem solving
+Cashier,cash handling,customer service,communication,attention to detail,problem solving
+Bank Teller,banking,customer service,communication,attention to detail,problem solving
+Real Estate Agent,sales,negotiation,communication,customer service,market knowledge
+Insurance Agent,insurance,customer service,communication,negotiation,problem solving
+Loan Officer,loan processing,customer service,communication,attention to detail,problem solving
+Financial Planner,financial planning,communication,problem solving,analytical skills,customer service
+Investment Banker,financial analysis,communication,problem solving,negotiation,attention to detail
+Stockbroker,stock trading,communication,problem solving,analytical skills,negotiation
+Trader,trading,communication,problem solving,analytical skills,negotiation
+Entrepreneur,business strategy,leadership,problem solving,communication,creativity
+Consultant,consulting,problem solving,communication,analytical skills,organization
+Advisor,advising,problem solving,communication,analytical skills,organization
+Mentor,mentoring,communication,leadership,problem solving,empathy
+Volunteer,volunteering,empathy,communication,problem solving,organization
+Activist,advocacy,communication,problem solving,leadership,organization
+Philanthropist,charity,leadership,communication,problem solving,organization

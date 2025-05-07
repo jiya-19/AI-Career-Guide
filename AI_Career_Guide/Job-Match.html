@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Matcher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f7;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+        }
+        h2 {
+            color: #003366;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #003366;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #003366;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0055aa;
+        }
+        .results {
+            margin-top: 20px;
+            width: 80%;
+            max-width: 800px;
+            background-color: #d6e6fd;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .job-item {
+            background-color: #eaf0fb;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        .job-item strong {
+            color: #003366;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Job Matcher</h2>
+    <input type="text" id="skillsInput" placeholder="Enter your skills (e.g. python,sql)" />
+    <button onclick="findJobs()">Find Jobs</button>
+
+    <div class="results">
+        <h3>Matched Jobs:</h3>
+        <div id="matchedJobs"></div>
+    </div>
+
+    <script>
+        function findJobs() {
+            const skills = document.getElementById('skillsInput').value;
+
+            fetch('http://127.0.0.1:5000/match_jobs', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ skills: skills })
+            })
+            .then(response => response.json())
+            .then(data => {
+                const matchedJobs = document.getElementById('matchedJobs');
+                matchedJobs.innerHTML = '';
+
+                if (data.error) {
+                    matchedJobs.innerHTML = `<div style="color:red;">${data.error}</div>`;
+                    return;
+                }
+
+                if (Array.isArray(data) && data.length > 0) {
+                    data.forEach(job => {
+                        const jobItem = document.createElement('div');
+                        jobItem.className = 'job-item';
+                        jobItem.innerHTML = `<strong>${job.title || 'No Title'}</strong> - ${job.description || 'No Description'}`;
+                        matchedJobs.appendChild(jobItem);
+                    });
+                } else {
+                    matchedJobs.innerHTML = `<div style="color:red;">No jobs matched your skills.</div>`;
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert("Failed to connect to the server.");
+            });
+        }
+    </script>
+
+</body>
+</html>

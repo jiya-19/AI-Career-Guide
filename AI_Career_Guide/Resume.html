@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Analyzer</title>
+</head>
+<body style="background-color: #abdbea; text-align: center; font-family: Arial, sans-serif; margin: 0; padding: 20px;">
+  <h2 style="align-content: center; color: #004d66; font-size: 24px; margin-bottom: 20px;">Upload Resume for Analysis</h2>
+  <form id="upload-form" enctype="multipart/form-data" style="display: inline-block; text-align: left; background-color: #ffffff; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <input type="file" id="resume" name="resume" accept="application/pdf" required />
+    <button type="submit" style="height: 30px; width: 80px; background-color: rgb(215, 229, 241);">Analyze</button>
+  </form>
+
+  <h3 id="result"></h3>
+  <div id="improvements"></div>
+
+  <script>
+    document.getElementById('upload-form').addEventListener('submit', async function(event) {
+      event.preventDefault();
+      const fileInput = document.getElementById('resume');
+      const formData = new FormData();
+      formData.append('resume', fileInput.files[0]);
+
+      try {
+        const response = await fetch('http://localhost:10000/analyze_resume', {
+          method: 'POST',
+          body: formData
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+          document.getElementById('result').innerHTML = 
+            `🔍 <strong>Best Matched Role:</strong> ${data.best_role} <br>
+             🏆 <strong>ATC Score:</strong> ${data.score}%`;
+
+          document.getElementById('improvements').innerHTML = 
+            `<h4>Areas of Improvement:</h4><ul>` +
+            data.improvements.map(skill => `<li>${skill}</li>`).join('') +
+            `</ul>`;
+        } else {
+          alert(data.error || "An error occurred while analyzing the resume.");
+        }
+
+      } catch (error) {
+        alert('Error connecting to server.');
+        console.error(error);
+      }
+    });
+  </script>
+</body>
+</html>
