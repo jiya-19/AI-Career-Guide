@@ -12,7 +12,7 @@ The **AI Career Guide** is an integrated web-based toolkit designed to assist us
 - Extracts skills, experience, and education details.
 - Matches resumes to suitable job roles.
 
-**Main file**: `resume_parser.py`
+**Main file**: `app.py`
 
 ### 2. **Job Matcher**
 - Matches user profiles/resumes with appropriate job roles.
