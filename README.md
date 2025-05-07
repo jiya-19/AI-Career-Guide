@@ -63,9 +63,10 @@ pip install -r requirements.txt
 ```
 
 ### 2. **Run the Application**
-Assuming `app.py` is the entry point:
 ```bash
 python app.py
+python interview_chatbot.py
+python job_matcher.py
 ```
 
 Then, open the relevant HTML files in your browser (e.g., `Resume analyzer.html`, `Job matching.html`, etc.).
@@ -93,7 +94,7 @@ Then, open the relevant HTML files in your browser (e.g., `Resume analyzer.html`
 
 - **Python**
 - **Natural Language Processing (NLP)**
-- **Flask** *(if `app.py` is a server launcher)*
+- **Flask**
 - **HTML/CSS/JavaScript**
 
 ---
