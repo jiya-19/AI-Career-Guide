@@ -5,8 +5,6 @@ The **AI Career Guide** is an integrated web-based toolkit designed to assist us
 
 ---
 
-
-
 ## 🔧 Features
 
 ### 1. **Resume Analyzer**
